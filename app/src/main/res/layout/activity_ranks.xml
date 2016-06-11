@@ -8,6 +8,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/white"
     tools:context="com.example.rafalmaselek.colorfun.RanksActivity">
     <!-- Wstawic tu logo aplikacji -->
     <LinearLayout
@@ -15,21 +16,33 @@
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:layout_centerHorizontal="true"
+        android:layout_margin="30px"
         android:layout_centerVertical="true">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:id="@+id/imageView1"
+            android:src="@drawable/clf3"/>
         <Button
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="easy"
+            android:layout_margin="10px"
+            android:textSize="24pt"
             android:layout_gravity="center"/>
         <Button
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="normal"
+            android:layout_margin="10px"
+            android:textSize="24pt"
             android:layout_gravity="center"/>
         <Button
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="hard"
+            android:layout_margin="10px"
+            android:textSize="24pt"
             android:layout_gravity="center"/>
 
     </LinearLayout>
