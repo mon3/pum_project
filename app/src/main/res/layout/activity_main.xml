@@ -22,7 +22,7 @@
             android:layout_width="match_parent"
             android:layout_height="150dp"
             android:id="@+id/imageView1"
-            android:src="@drawable/clf3"/>
+            android:src="@drawable/cf3"/>
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

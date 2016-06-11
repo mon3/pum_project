@@ -28,7 +28,7 @@
             android:layout_width="match_parent"
             android:layout_height="150dp"
             android:id="@+id/imageView1"
-            android:src="@drawable/clf3"/>
+            android:src="@drawable/cf3"/>
         <View
             android:layout_width="200px"
             android:layout_height="200px"
